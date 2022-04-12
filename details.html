@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>details</title>
+    <link rel="stylesheet" href="./assets/css/calendar.css">
+
+    <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="./assets/css/details.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+    <link rel="stylesheet" href="./assets/fonts/fontawesome-free-6.0.0-web/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;700&family=Roboto:wght@100&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="grid">
+                <nav class="header__navbar">
+                    <ul class="header__navbar-list">
+                        <li class="header__navbar-item header__navbar-item--has-qr header__navbar-item--separate">
+                            Vào cửa hàng trên ứng dụng F8-Shop
+                            <div class="header__qr">
+                                <img src="./assets/img/QR_code.png" alt="QR code" class="qr__img">
+                                <div class="header__qr-app">
+                                    <a href="" class="header__qr-link"><img src="./assets/img/appstore.png" alt="App Store" class="header__qr-download-img"></a>
+                                    <a href="" class="header__qr-link"><img src="./assets/img/gg_play.png" alt="Google Play" class="header__qr-download-img"></a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="header__navbar-item">
+                            <span class="header__navbar-item--nopointer">Kết nối</span>
+                            <a href="" class="header__navbar--icon">
+                                <i class="fa-brands fa-facebook"></i>
+                            </a>
+
+                            <a href="" class="header__navbar--icon">
+                                <i class="fa-brands fa-instagram"></i>
+                            </a> 
+                        </li>
+                        
+                    </ul>
+     
+                    <ul class="header__navbar-list">
+                        <li class="header__navbar-item"><a href="" class="header__navbar-item-link header__navbar--icon">
+                            <i class="fa-solid fa-bell "></i>
+                            Thông báo
+                        </a></li>
+                        <li class="header__navbar-item"><a href="http://127.0.0.1:5500/support.html" class="header__navbar-item-link header__navbar--icon">
+                            <i class="fa-solid fa-circle-question"></i>
+                            Trợ giúp
+                        </a></li>
+                        <li class="header__navbar-item header__navbar-item--bold "><a href="http://127.0.0.1:5500/signup.html" class="header__navbar-item-link  ">Đăng ký</a></li>
+                   
+                        <li class="header__navbar-item header__navbar-item--bold"><a href="http://127.0.0.1:5500/login.html" class="header__navbar-item-link ">Đăng nhập</a></li>
+                    </ul>
+                </nav>
+
+                <div class="header-with-search">
+                    <div class="header__logo" >
+                      <a href="http://127.0.0.1:5500/index.html"><img src="./assets/img/shopingday.logo.png" class="header__logo-img" alt=""></a>
+                    </div>
+
+                    <div class="header__search">
+                        <input placeholder="Tìm Kiếm" type="text" class="header__search-input">
+
+                        <div class="header__search-select">
+                            <span class="header__search-select-label">Trong Shop</span>
+                            <i class="fa-solid fa-chevron-down header__search-select-icon"></i>
+                            <ul class="header__search-option">
+                                <li class="header__search-option-items ">
+                                    <span>Trong Shop</span>
+                                    <i class="fa-solid fa-check"></i>
+                                </li>
+
+                                <li class="header__search-option-items ">
+                                    <span>Ngoài Shop</span>
+                                    <!-- <i class="fa-solid fa-check header__search-option-items--active2"></i> -->
+                                </li>
+                                
+                            </ul>
+                        </div>
+
+                        <button class="header__search-btn">
+                            <i class="header__search-btn-icon fa-solid fa-magnifying-glass"></i>
+                        </button>
+
+                    </div>
+
+                    <div class="header__cart">
+                        <a href=""><i class="header__cart-icon fa-solid fa-cart-shopping"></i></a>
+                        <span class="notice">3</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="grid">
+            <div class="details__product">
+                <div class="details_imgAndAction">
+                    <div class="details_img">
+                        <img src="./assets/img/details_img_produst.jpg" alt="">
+                    </div>
+                        
+                    <div class="details_actionsWithShare">
+                        <div class="shareTo">
+                            <span style="color: black">Chia sẻ: </span>
+                            <a href="#"><i class="fa-brands fa-facebook share--icon" style="color:rgb(19, 19, 126)"></i></a>
+                            <a href="#"><i class="fa-brands fa-facebook-messenger share--icon" style="color:rgb(0, 110, 255)"></i></a>
+                            <a href="#"><i class="fa-brands fa-twitter share--icon" style="color:rgb(0, 162, 255)"></i></a>
+                            
+                        </div>
+                        <div class="Action">
+                            <i class="fa-regular fa-heart action--icon"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="details_infor">
+                    <div class="details--name">
+                        Laptop Asus VivoBook A515EA-L12033T i5-1135G7/8GB RAM/512 SSD/15.6-inch OLED FHD/WIN10
+                    </div>
+                    <div class="details--price">
+                        <div class="old_price">18.000.000đ</div>
+                        <div class="new_price">16.200.000đ</div>
+                        <div class="percent">GIẢM 10%</div>
+                    </div>
+                    <div class="details_transport">
+                        VẬN CHUYỂN  
+                        <i class="fa-solid fa-truck icon_truck"></i> :
+                        <button class="selection--transport">Tiết kiệm</button>
+                        <button class="selection--transport">Hỏa tốc</button>
+                    </div>
+                    <div class="details_amount">
+                        <span class="title">Số lượng:</span>
+                        <div class="details_amout--selection">
+                            <div class="decrease_amout">-</div>
+                            <div class="amout_current">1</div>
+                            <div class="more_amout">+</div>
+                        </div>
+                    </div>
+                    <div class="details_btn--decision">
+                        <a href="#">
+                            <div class="btn--buy">Mua Ngay</div>
+                        </a>
+                        <a href="#">
+                            <div class="btn--add-to-cart">
+                                <i class="fa-solid fa-cart-plus"></i>
+                                Thêm vào giỏ hàng
+                            </div>
+                        </a>
+                    </div>
+                    <div class="policy">
+                        <span class="policy--items">
+                            <i class="fa-solid fa-circle-arrow-left"></i>
+                            7 ngày miễn phí trả hàng
+                        </span>
+                        <span class="policy--items">
+                            <i class="fa-solid fa-shield"></i>
+                            Hàng chính hãng 100%
+                        </span>
+                        <span class="policy--items">
+                            <i class="fa-solid fa-truck-fast"></i>
+                            Miễn phí vẫn chuyển
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        
+
+        <div class="footer">
+            <div class="grid">
+                <div class="grid__row">
+                    <div class="grid__column-2-4">
+                        <h3 class="footer__heading">CHăm Sóc Khách Hàng</h3>
+                        <ul class="footer-list">
+                            <li class="footer-item"><a href="#" class="footer-item__link">Trung Tâm Trợ Giúp</a></li>
+                            <li class="footer-item"><a href="#" class="footer-item__link">ShoppingDay Blog</a></li>
+                            <li class="footer-item"><a href="#" class="footer-item__link">ShoppingDay Mall</a></li>
+                            <li class="footer-item"><a href="#" class="footer-item__link">Hướng Dẫn Mua Hàng</a></li>
+                            <li class="footer-item"><a href="#" class="footer-item__link">Hướng Dẫn Bán Hàng</a></li>
+                            <li class="footer-item"><a href="#" class="footer-item__link">Thanh Toán</a></li>
+                            <li class="footer-item"><a href="#" class="footer-item__link">Shoping Xu</a></li>
+                            <li class="footer-item"><a href="#" class="footer-item__link">Vận Chuyển</a></li>
+                            <li class="footer-item"><a href="#" class="footer-item__link">Trả Hàng & Hoàn Tiền</a></li>
+                            <li class="footer-item"><a href="#" class="footer-item__link">Chính Sách Bảo Hành</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="grid__column-2-4">
+                        <h3 class="footer__heading">Về Shop</h3>
+                        <ul class="footer-list">
+                            <li class="footer-item"><a href="#" class="footer-item__link">Giới Thiệu Về ShoppingDay VN</a></li>
+                            <li class="footer-item"><a href="#" class="footer-item__link">Tuyển Dụng</a></li>
+                            <li class="footer-item"><a href="#" class="footer-item__link">Điều Khoản ShoppingDay</a></li>
+                            <li class="footer-item"><a href="#" class="footer-item__link">Chính Sách Bảo Mật</a></li>
+                            <li class="footer-item"><a href="#" class="footer-item__link">Chính Hãng</a></li>
+                            <li class="footer-item"><a href="#" class="footer-item__link">Kênh Người Bán</a></li>
+                            <li class="footer-item"><a href="#" class="footer-item__link">Flash Sales</a></li>
+                            <li class="footer-item"><a href="#" class="footer-item__link">Chương Trình Tiếp Thị Liên Kết</a></li>
+                            <li class="footer-item"><a href="#" class="footer-item__link">Liên Hệ Với Truyền Thông</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="grid__column-2-4">
+                        <h3 class="footer__heading">Thanh Toán</h3>
+                        <ul class="footer-list">
+                            <li class="footer-item">
+                                <img src="./assets/img/visa-master-icon-5.jpg" alt="" class="footer-item-img_pay">
+                            </li>
+                        </ul>
+                        <h3 class="footer__heading">Đơn Vị Vận Chuyển</h3>
+                        <ul class="footer-list">
+                            <li class="footer-item">
+                                <img src="./assets/img/cac-cong-ty-chuyen-phat-nhanh.png" alt="" class="footer-item-img_transport">
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="grid__column-2-4">
+                        <h3 class="footer__heading">Theo Dõi Chúng Tôi Trên</h3>
+                        <ul class="footer-list">
+                            <a href="" class="footer-item__contact footer-item__link">
+                                <i class="fa-brands fa-facebook footer-item__contact-icon"></i>Facebook
+                            </a>
+                            <a href="" class="footer-item__contact footer-item__link">
+                                <i class="fa-brands fa-instagram-square footer-item__contact-icon"></i>Instagram
+                            </a>
+                            <a href="" class="footer-item__contact footer-item__link">
+                                <i class="fa-brands fa-linkedin footer-item__contact-icon"></i>Linkendl
+                            </a>
+                        </ul>
+                    </div>
+
+                    <div class="grid__column-2-4">
+                        <h3 class="footer__heading">Tải Ứng Dụng Shopee ngay thôi</h3>
+                        <a class="footer__download" href="#">
+                            <img src="./assets/img/QR_code.png" alt="Download by QR" class="footer__download-qr">
+                            <div class="footer__download-apps">
+                                <img src="./assets/img/appstore.png" alt="App Store" class="footer__download-img">
+                                <img src="./assets/img/gg_play.png" alt="Google play" class="footer__download-img">
+                                <img src="./assets/img/appgallery.png" alt="Appgallery" class="footer__download-img">
+                            </div>
+                        </a>
+                    </div>
+                    <!-- calendarrrrrrrrrrrrr -->
+                    <div class="calendar calendar-details">
+                        <script  src="./assets/js/lich.js">
+            
+                        </script>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
